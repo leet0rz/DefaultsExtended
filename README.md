@@ -1,5 +1,8 @@
 # DefaultsExtended
-DefaultsExtended was created to extend the default editing keys. 
+DefaultsExtended was created to extend the default editing keys. Globally so it
+can be used not just in one editor but anywhere on the system, a few programs
+will have collisions or weird default bindings but these bindings should work
+almost everywhere.
 
 # Requirements:
 Autohotkey from https://www.autohotkey.com/
