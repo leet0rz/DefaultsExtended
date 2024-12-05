@@ -35,6 +35,10 @@
 ^!+Right::
     Send {Shift Down}{End}{Shift Up}
     return
+
+^+l::
+    Send {Home}{Shift Down}{End}{Shift Up}
+    return
 ; 0==============================================================================================================0
 ;Select from location to start/end
 ^!+Up::
@@ -53,12 +57,16 @@
     return
 
 ; 0==============================================================================================================0
-!c::
-    Run "calc"
-    return
+; OTHER:
 
+; Calculator
+; !c::
+;     Run "calc"
+;     return
+
+;Terminal
 ;Adding explorer.exe makes it so it does not run as admin if needed.
-^!t::
+; ^!t::
     ; Run, explorer.exe "C:\Program Files\WezTerm\wezterm-gui.exe"
     ; Run "pwsh"
-return
+; return

@@ -38,5 +38,8 @@ ctrl + alt + shift + down: select from current location to end of file
 #
 ctrl + shift + d: delete current line
 
+# OTHER:
+Added calculator and terminal bindings that can be uncommented.
+
 # TODO:
 ctrl + shift + l: select current line
