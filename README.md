@@ -42,4 +42,3 @@ ctrl + shift + d: delete current line
 Added calculator and terminal bindings that can be uncommented.
 
 # TODO:
-
