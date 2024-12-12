@@ -28,6 +28,10 @@
     return
 ; 0==============================================================================================================0
 ; Select line
+^+l::
+    Send {Home}{Shift Down}{End}{Shift Up}
+    return
+
 ^!+Left::
     Send {Shift Down}{Home}{Shift Up}
     return
@@ -36,9 +40,6 @@
     Send {Shift Down}{End}{Shift Up}
     return
 
-^+l::
-    Send {Home}{Shift Down}{End}{Shift Up}
-    return
 ; 0==============================================================================================================0
 ; Select from location to start/end
 ^!+Up::

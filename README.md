@@ -27,6 +27,9 @@ ctrl + alt + up: Move to start of file
 ctrl + alt + down: Move to end of file
 
 #
+
+ctrl + shift + l: select line
+
 ctrl + alt + shift + left: select from current location to start of line
 
 ctrl + alt + shift + right: select from current location to end of line
